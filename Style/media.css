@@ -1,0 +1,140 @@
+@media (max-width: 1130px) {
+    .header__nav, .footer__content {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 1070px) {
+    .main__content-profil, .main__content-microsoft {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px;
+    }
+
+    .main__content-projects {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+
+    .main__work-video {
+        width: 100%;
+    }
+}
+
+@media (max-width: 972px) {
+    .header__content-img {
+        display: block;
+        width: 300px;
+        height: 220px;
+    }
+
+    .header__content-title {
+        font-size: 44px;
+        line-height: 65px;
+    }
+
+    .main__content-items {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .item__img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 850px) {
+
+    .header__content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header__content-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__content-img {
+        display: block;
+        width: 250px;
+        height: 200px;
+    }
+
+    .header__content-title {
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    .header__content-description {
+        font-size: 20px;
+        line-height: 22px;
+        margin: 35px;
+        text-align: center;
+    }
+
+    .header__content-link {
+        padding: 20px 0;
+    }
+
+    .main__content-items {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 680px) {
+    .header__nav, .header__nav-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px;
+    }
+
+    .main__form-name {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .main__form-email {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 560px) {
+    .main__content-items {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .item__img {
+        width: 100%;
+    }
+
+    .main__profil-photo {
+        width: 100%;
+    }
+
+    .footer__content {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 15px;
+    }
+
+    .line {
+        width: 305px;
+        height: 4px;
+        background: #C4C4C4;
+        margin-bottom: 20px;
+    }
+    
+    .line::before {
+        content: '';
+        display: block;
+        width: 200px;
+        height: 4px;
+        background: var(--blue);
+    }
+    
+}
